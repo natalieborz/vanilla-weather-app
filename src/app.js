@@ -1,3 +1,10 @@
+let now = new Date();
+let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+let day = days[now.getDay()];
+let hours = now.getHours();
+let minutes = now.getMinutes();
+let currentTime = document.querySelector("#current-time");
+currentTime.innerHTML = `${day}, ${hours}:${minutes}`;
 
 function search(event) {
     event.preventDefault();
