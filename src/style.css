@@ -18,7 +18,11 @@ font-size: 16px;
 font-weight: 100;
 line-height: 19.2px;
 margin: 0;
-padding: 0;}
+padding: 0;
+}
+
+
+#description:first-letter {text-transform: capitalize;}
 
 .weather-app {max-width: 600px;
     margin: 30px auto;
