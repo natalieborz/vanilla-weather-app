@@ -27,6 +27,10 @@ function search(event) {
     icon.setAttribute("alt", response.data.condition.description);
     }
     axios.get(apiUrl).then(showTemperature);
+  
+
   }
   let form = document.querySelector("form");
   form.addEventListener("submit", search);
+
+  
