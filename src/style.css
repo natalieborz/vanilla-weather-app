@@ -44,3 +44,19 @@ font-weight: 400;
 line-height: 1;}
 
 .overview {margin-bottom: 20px;}
+
+.weather-forecast {
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+}
+.weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.5;
+}
+.weather-forecast-temperature {
+    font-size: 13px;
+}
+.weather-forecast-temperature-min {
+    opacity: 0.5;
+}
